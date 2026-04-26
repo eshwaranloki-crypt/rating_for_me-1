@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rate My Character</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Rate My Character</h1>
+<form id="rating-form">
+<label for="character-name">Character Name:</label>
+<input type="text" id="character-name" required>
+<label for="rating">Rating (1-5):</label>
+<input type="number" id="rating" min="1" max="5" required>
+<label for="feedback">Feedback:</label>
+<textarea id="feedback" required></textarea>
+<button type="submit">Submit Rating</button>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
